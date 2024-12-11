@@ -450,9 +450,6 @@ main {
     fill: #f4f4fd;
 }
 
-.team-list .social-link {
-    gap: 24px;
-}
 
 .team .social-link:focus,
 .team .social-link:hover {
@@ -472,7 +469,8 @@ main {
 }
 
 .team .social-list {
-    justify-content: center;    
+    justify-content: center;
+    gap: 24px;
 }
 
 .social-item {
