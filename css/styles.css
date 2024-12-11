@@ -450,7 +450,7 @@ main {
     fill: #f4f4fd;
 }
 
-.team-list-item .social-link {
+.team-list .social-link {
     gap: 24px;
 }
 
