@@ -64,6 +64,7 @@ main {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 
 .nav-list {
@@ -79,7 +80,7 @@ main {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
-    transition-property: color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-bar:hover,
@@ -124,7 +125,7 @@ main {
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
-    transition-property: color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
@@ -134,6 +135,9 @@ main {
 
 .header {
     border-bottom: 1px solid #e7e9fc;    
+    box-shadow:  2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-cont {
@@ -193,7 +197,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transition-property: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:hover,
@@ -272,9 +276,6 @@ main {
 
 .team-list {
     background-color: #ffffff;
-}
-
-.team-list {
     display: flex;
     gap: 24px;
     padding: 0;
